@@ -18,5 +18,29 @@ public class Main {
         System.out.println(libro4.imprimirCubierta());
         libro5.imprimir();
         System.out.println(libro5.imprimirCubierta());
+
+        ////////////////////////////////////////Videojuegos///////////////////////////////////
+        Videojuego juego1=new Videojuego("Fortnite", "EpicGames", "Shooter", "Multiplataforma", 2018);
+        Videojuego juego2=new Videojuego("Uncharted", "NaugthyDogs", "Aventura", "PS4", 2016 );
+        Videojuego juego3 = new Videojuego("The Legend of Zelda: Breath of the Wild", "Nintendo", "Aventura", "Switch", 2017);
+        Videojuego juego4 = new Videojuego("Minecraft", "Mojang", "Mundo abierto", "Multiplataforma", 2011);
+        Videojuego juego5 = new Videojuego("God of War", "Santa Monica Studio", "Acción/Aventura", "PS4", 2018);
+        juego1.mostrarVideojuego();
+        juego2.mostrarVideojuego();
+        juego3.mostrarVideojuego();
+        juego4.mostrarVideojuego();
+        juego5.mostrarVideojuego();
+
+        ///////////////////////////////Canciones////////////////////////////
+        Cancion cancion1 = new Cancion("Shape of You", "Ed Sheeran", "Pop", "Atlantic", 2.35);
+        Cancion cancion2 = new Cancion("Bohemian Rhapsody", "Queen", "Rock", "EMI", 3.54);
+        Cancion cancion3 = new Cancion("Billie Jean", "Michael Jackson", "Pop", "Epic", 2.94);
+        Cancion cancion4 = new Cancion("Smells Like Teen Spirit", "Nirvana", "Grunge", "DGC", 3.01);
+        Cancion cancion5 = new Cancion("Rolling in the Deep", "Adele", "Soul", "XL", 2.28);
+        cancion1.mostrarCancion();
+        cancion2.mostrarCancion();
+        cancion3.mostrarCancion();
+        cancion4.mostrarCancion();
+        cancion5.mostrarCancion();
     }
 }
