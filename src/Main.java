@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.printf("Hola a todos");
         //para declarar el objeto
         //para instanciar una clase
+        ///////////////////////////////////////Libros////////////////////////////////////
         Book libro1=new Book("El resplandor", "Stephen King", "De Bolsillo", 600);
         Book libro2=new Book("El crimen casi perfecto", "Roberto Arit", "Ojoreja", 216);
         Book libro3=new Book("Cien años de soledad", "Gabriel García Márquez", "Editorial Sudamericana", 500);
@@ -25,11 +25,9 @@ public class Main {
         Videojuego juego3 = new Videojuego("The Legend of Zelda: Breath of the Wild", "Nintendo", "Aventura", "Switch", 2017);
         Videojuego juego4 = new Videojuego("Minecraft", "Mojang", "Mundo abierto", "Multiplataforma", 2011);
         Videojuego juego5 = new Videojuego("God of War", "Santa Monica Studio", "Acción/Aventura", "PS4", 2018);
-        juego1.mostrarVideojuego();
-        juego2.mostrarVideojuego();
-        juego3.mostrarVideojuego();
-        juego4.mostrarVideojuego();
-        juego5.mostrarVideojuego();
+        System.out.println(juego1.getAnio());
+        juego1.setAnio(2020);
+        System.out.println(juego1.getAnio());
 
         ///////////////////////////////Canciones////////////////////////////
         Cancion cancion1 = new Cancion("Shape of You", "Ed Sheeran", "Pop", "Atlantic", 2.35);
@@ -37,10 +35,5 @@ public class Main {
         Cancion cancion3 = new Cancion("Billie Jean", "Michael Jackson", "Pop", "Epic", 2.94);
         Cancion cancion4 = new Cancion("Smells Like Teen Spirit", "Nirvana", "Grunge", "DGC", 3.01);
         Cancion cancion5 = new Cancion("Rolling in the Deep", "Adele", "Soul", "XL", 2.28);
-        cancion1.mostrarCancion();
-        cancion2.mostrarCancion();
-        cancion3.mostrarCancion();
-        cancion4.mostrarCancion();
-        cancion5.mostrarCancion();
     }
 }
