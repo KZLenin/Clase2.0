@@ -1,4 +1,10 @@
 import java.util.Scanner;
+import Estudio.*;
+import Movilidad.*;
+import Musica.*;
+import Otros.*;
+import TV.*;
+
 public class Main {
     public static void main(String[] args) {
         //para declarar el objeto

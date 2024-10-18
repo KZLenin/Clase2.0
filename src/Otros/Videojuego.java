@@ -1,3 +1,5 @@
+package Otros;
+
 public class Videojuego {
     String nombre;
     String desarrolladora;

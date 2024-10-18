@@ -1,3 +1,5 @@
+package Estudio;
+
 public class Materia {
     String nombre;
     String codigo;
