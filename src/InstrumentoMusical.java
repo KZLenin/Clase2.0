@@ -35,4 +35,9 @@ public class InstrumentoMusical {
     public void setMarca(String marca) {
         this.marca = marca;
     }
+
+    public void mostrarInstrumento() {
+        System.out.printf("Nombre: %s\nTipo: %s\nMarca: %s\n",nombre, tipo, marca);
+    }
+
 }

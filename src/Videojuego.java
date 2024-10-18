@@ -16,7 +16,6 @@ public class Videojuego {
     public String getNombre() {
         return nombre;
     }
-
     public String getDesarrolladora() {
         return desarrolladora;
     }
@@ -46,13 +45,7 @@ public class Videojuego {
         this.anio = anio;
     }
 
-    /*
     public void mostrarVideojuego() {
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Desarrolladora: " + desarrolladora);
-        System.out.println("Genero: " + genero);
-        System.out.println("Plataforma: " + plataforma);
-        System.out.println("Año: " + anio);
-        System.out.println("-------------------------");
-    }*/
+        System.out.printf("Nombre: %s\nDesarrolladora: %s\nGenero: %s\nPlataforma: %s\nAño: %d\n", nombre, desarrolladora, genero, plataforma, anio );
+    }
 }

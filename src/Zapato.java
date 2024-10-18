@@ -45,4 +45,9 @@ public class Zapato {
     public void setTalla(int talla) {
         this.talla = talla;
     }
+
+    public void mostrarZapato() {
+        System.out.printf("Marca: %s\nTipo: %s\nColor: %s\nTalla: %d\n", marca, tipo, color, talla);
+    }
+
 }

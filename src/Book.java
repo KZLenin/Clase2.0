@@ -13,14 +13,7 @@ public class Book {
         this.editora = editora;
         this.paginas = paginas;
     }
-    public void imprimir() {
-        System.out.println("El titulo es: " + this.titulo);
-        System.out.println("El autor es: " +this.autor);
-        System.out.println("La editorial es: " + this.editora);
-        System.out.println("El numero de paginas es: " +this.paginas);
-        System.out.println("-----------------------------");
-    }
-    public int imprimirCubierta() {
-        return this.paginas+5;
+    public void mostrarLibro() {
+        System.out.printf("El título es: %s\nEl autor es: %s\nLa editorial es: %s\nEl número de páginas es: %d", titulo, autor, editora, paginas);
     }
 }

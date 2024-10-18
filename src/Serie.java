@@ -33,5 +33,9 @@ public class Serie {
         this.anio = anio;
     }
 
+    public void mostrarSerie() {
+        System.out.printf("Nombre: %s\nPlataforma: %s\nAño: %d\n", nombre, plataforma, anio);
+    }
+
 }
 

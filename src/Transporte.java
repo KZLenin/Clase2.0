@@ -35,4 +35,9 @@ public class Transporte {
     public void setVelocidadMax(double velocidadMax) {
         this.velocidadMax = velocidadMax;
     }
+
+    public void mostrarTransporte() {
+        System.out.printf("Tipo: %s\nCapacidad: %d\nVelocidad Máxima: %.2f km/h\n", tipo, capacidad, velocidadMax);
+    }
+
 }

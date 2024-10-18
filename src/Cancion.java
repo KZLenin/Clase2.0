@@ -48,13 +48,7 @@ public class Cancion {
         this.duracion = duracion;
     }
 
-    /*
     public void mostrarCancion() {
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Artista: " + artista);
-        System.out.println("Genero: " + genero);
-        System.out.println("Disquera: " + disquera);
-        System.out.println("Duracion: " + duracion + " minutos");
-        System.out.println("------------------------");
-    }*/
+        System.out.printf("Nombre: %s\nArtista: %s\nGénero: %s\nDisquera: %s\nDuración: %.2f minutos\n", nombre, artista, genero, disquera, duracion);
+    }
 }

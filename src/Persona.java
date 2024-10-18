@@ -48,4 +48,9 @@ public class Persona {
     public void setId(int id) {
         this.id = id;
     }
+
+    public void mostrarPersona() {
+        System.out.printf("Nombre: %s\nApellido: %s\nEdad: %d\nID: %d\n", nombre, apellido, edad, id);
+    }
+
 }

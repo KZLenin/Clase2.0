@@ -45,4 +45,8 @@ public class Pelicula {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
+    public void mostrarPelicula() {
+        System.out.printf("Título: %s\nCinematografía: %s\nAño de Publicación: %d\nGénero: %s\n", titulo, cinematografia, anioPublicacion, genero);
+    }
 }

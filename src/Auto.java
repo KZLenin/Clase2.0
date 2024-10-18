@@ -45,4 +45,8 @@ public class Auto {
     public void setPlaca(String placa) {
         this.placa = placa;
     }
+
+    public void mostrarAuto(){
+        System.out.printf("Marca: %s\nModelo: %s\nPlaca: %s", marca, modelo, placa);
+    }
 }

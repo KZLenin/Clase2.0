@@ -35,6 +35,10 @@ public class Materia {
     public void setCreditos(int creditos) {
         this.creditos = creditos;
     }
+
+    public void mostrarMateria() {
+        System.out.printf("Nombre: %s\nCodigo: %s\nCreditos: %d\n", nombre, codigo, creditos);
+    }
 }
 
 

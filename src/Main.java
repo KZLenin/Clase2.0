@@ -31,7 +31,7 @@ public class Main {
         Transporte transporte2 = new Transporte("Camión", 2, 80.0);
 
         /////////////////////////////////Materias////////////////////////////////////////
-        Materia Materia1 = new Materia("Programacion Orientada a Objetos", "TDSPOO24", 5);
+        Materia materia1 = new Materia("Programacion Orientada a Objetos", "TDSPOO24", 5);
         Materia materia2 = new Materia("Estructuras de Datos", "TDS102", 4);
 
         ///////////////////////////////////Zapatos////////////////////////////////////////
@@ -46,5 +46,38 @@ public class Main {
         Pelicula pelicula1 = new Pelicula("Avengers End Game", "Marvel", 2022, "Accion");
         Pelicula pelicula2 = new Pelicula("Interstellar", "Paramount", 2014, "Ciencia Ficción");
 
+        ///////////////////////////////////////Mostrar objetos//////////////////////////////////////////
+        libro1.mostrarLibro();
+        libro2.mostrarLibro();
+
+        juego1.mostrarVideojuego();
+        juego2.mostrarVideojuego();
+
+        cancion1.mostrarCancion();
+        cancion2.mostrarCancion();
+
+        serie1.mostrarSerie();
+        serie2.mostrarSerie();
+
+        persona1.mostrarPersona();
+        persona2.mostrarPersona();
+
+        auto1.mostrarAuto();
+        auto2.mostrarAuto();
+
+        transporte1.mostrarTransporte();
+        transporte2.mostrarTransporte();
+
+        materia1.mostrarMateria();
+        materia2.mostrarMateria();
+
+        zapato1.mostrarZapato();
+        zapato2.mostrarZapato();
+
+        instrumentoMusical1.mostrarInstrumento();
+        instrumentoMusical2.mostrarInstrumento();
+
+        pelicula1.mostrarPelicula();
+        pelicula2.mostrarPelicula();
     }
 }
