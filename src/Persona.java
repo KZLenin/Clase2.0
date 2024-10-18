@@ -53,4 +53,7 @@ public class Persona {
         System.out.printf("Nombre: %s\nApellido: %s\nEdad: %d\nID: %d\n", nombre, apellido, edad, id);
     }
 
+    public void mostrarMensaje(String nombre, String apellido, int edad, int id) {
+        System.out.printf("Nombre: %s\nApellido: %s\nEdad: %d\nID: %d\n", nombre, apellido, edad, id);
+    }
 }

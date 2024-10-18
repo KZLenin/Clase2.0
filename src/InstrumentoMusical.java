@@ -40,4 +40,7 @@ public class InstrumentoMusical {
         System.out.printf("Nombre: %s\nTipo: %s\nMarca: %s\n",nombre, tipo, marca);
     }
 
+    public void mostrarMensaje(String nombre, String tipo, String marca) {
+        System.out.printf("Nombre: %s\nTipo: %s\nMarca: %s\n",nombre, tipo, marca);
+    }
 }

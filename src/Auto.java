@@ -49,4 +49,8 @@ public class Auto {
     public void mostrarAuto(){
         System.out.printf("Marca: %s\nModelo: %s\nPlaca: %s", marca, modelo, placa);
     }
+
+    public void mostrarMensaje(String marca, String modelo, String color, String placa){
+        System.out.printf("Marca: %s\nModelo: %s\nPlaca: %s", marca, modelo, placa);
+    }
 }

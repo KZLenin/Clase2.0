@@ -12,6 +12,10 @@ public class Cancion {
         this.disquera = disquera;
         this.duracion = duracion;
     }
+
+    public Cancion() {
+    }
+
     //getters
     public String getNombre() {
         return nombre;
@@ -49,6 +53,10 @@ public class Cancion {
     }
 
     public void mostrarCancion() {
+        System.out.printf("Nombre: %s\nArtista: %s\nGénero: %s\nDisquera: %s\nDuración: %.2f minutos\n", nombre, artista, genero, disquera, duracion);
+    }
+
+    public void mostrarMensaje(String nombre, String artista, String genero, String disquera, double duracion) {
         System.out.printf("Nombre: %s\nArtista: %s\nGénero: %s\nDisquera: %s\nDuración: %.2f minutos\n", nombre, artista, genero, disquera, duracion);
     }
 }

@@ -50,4 +50,7 @@ public class Zapato {
         System.out.printf("Marca: %s\nTipo: %s\nColor: %s\nTalla: %d\n", marca, tipo, color, talla);
     }
 
+    public void mostrarMensaje(String marca,String tipo,String color, int talla) {
+        System.out.printf("Marca: %s\nTipo: %s\nColor: %s\nTalla: %d\n", marca, tipo, color, talla);
+    }
 }

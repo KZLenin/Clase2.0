@@ -37,5 +37,8 @@ public class Serie {
         System.out.printf("Nombre: %s\nPlataforma: %s\nAño: %d\n", nombre, plataforma, anio);
     }
 
+    public void mostrarMensaje(String nombre, String plataforma, int anio) {
+        System.out.printf("Nombre: %s\nPlataforma: %s\nAño: %d\n", nombre, plataforma, anio);
+    }
 }
 

@@ -39,6 +39,10 @@ public class Materia {
     public void mostrarMateria() {
         System.out.printf("Nombre: %s\nCodigo: %s\nCreditos: %d\n", nombre, codigo, creditos);
     }
+
+    public void mostrarMensaje(String nombre, String codigo, int creditos) {
+        System.out.printf("Nombre: %s\nCodigo: %s\nCreditos: %d\n", nombre, codigo, creditos);
+    }
 }
 
 

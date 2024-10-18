@@ -40,4 +40,7 @@ public class Transporte {
         System.out.printf("Tipo: %s\nCapacidad: %d\nVelocidad Máxima: %.2f km/h\n", tipo, capacidad, velocidadMax);
     }
 
+    public void mostrarMensaje(String titulo, int capacidad, double velocidadMax) {
+        System.out.printf("Tipo: %s\nCapacidad: %d\nVelocidad Máxima: %.2f km/h\n", tipo, capacidad, velocidadMax);
+    }
 }

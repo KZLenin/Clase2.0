@@ -12,6 +12,10 @@ public class Videojuego {
         this.plataforma = plataforma;
         this.anio = anio;
     }
+
+    public Videojuego() {
+    }
+
     //getters
     public String getNombre() {
         return nombre;
@@ -46,6 +50,10 @@ public class Videojuego {
     }
 
     public void mostrarVideojuego() {
+        System.out.printf("Nombre: %s\nDesarrolladora: %s\nGenero: %s\nPlataforma: %s\nAño: %d\n", nombre, desarrolladora, genero, plataforma, anio );
+    }
+
+    public void mostrarMensaje(String nombre, String desarrolladora, String genero, String plataforma, int anio) {
         System.out.printf("Nombre: %s\nDesarrolladora: %s\nGenero: %s\nPlataforma: %s\nAño: %d\n", nombre, desarrolladora, genero, plataforma, anio );
     }
 }

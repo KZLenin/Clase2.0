@@ -49,4 +49,8 @@ public class Pelicula {
     public void mostrarPelicula() {
         System.out.printf("Título: %s\nCinematografía: %s\nAño de Publicación: %d\nGénero: %s\n", titulo, cinematografia, anioPublicacion, genero);
     }
+
+    public void mostrarMensaje(String titulo, String cinematografia, int anioPublicacion, String genero) {
+        System.out.printf("Título: %s\nCinematografía: %s\nAño de Publicación: %d\nGénero: %s\n", titulo, cinematografia, anioPublicacion, genero);
+    }
 }
