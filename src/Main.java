@@ -5,35 +5,37 @@ public class Main {
         ///////////////////////////////////////Libros////////////////////////////////////
         Book libro1=new Book("El resplandor", "Stephen King", "De Bolsillo", 600);
         Book libro2=new Book("El crimen casi perfecto", "Roberto Arit", "Ojoreja", 216);
-        Book libro3=new Book("Cien años de soledad", "Gabriel García Márquez", "Editorial Sudamericana", 500);
-        Book libro4=new Book("1984", "George Orwell", "Penguin", 328);
-        Book libro5=new Book("La casa de los espíritus", "Isabel Allende", "Plaza & Janés", 400);
-        libro1.imprimir();
-        System.out.println(libro1.imprimirCubierta());
-        libro2.imprimir();
-        System.out.println(libro2.imprimirCubierta());
-        libro3.imprimir();
-        System.out.println(libro3.imprimirCubierta());
-        libro4.imprimir();
-        System.out.println(libro4.imprimirCubierta());
-        libro5.imprimir();
-        System.out.println(libro5.imprimirCubierta());
 
         ////////////////////////////////////////Videojuegos///////////////////////////////////
         Videojuego juego1=new Videojuego("Fortnite", "EpicGames", "Shooter", "Multiplataforma", 2018);
         Videojuego juego2=new Videojuego("Uncharted", "NaugthyDogs", "Aventura", "PS4", 2016 );
-        Videojuego juego3 = new Videojuego("The Legend of Zelda: Breath of the Wild", "Nintendo", "Aventura", "Switch", 2017);
-        Videojuego juego4 = new Videojuego("Minecraft", "Mojang", "Mundo abierto", "Multiplataforma", 2011);
-        Videojuego juego5 = new Videojuego("God of War", "Santa Monica Studio", "Acción/Aventura", "PS4", 2018);
-        System.out.println(juego1.getAnio());
-        juego1.setAnio(2020);
-        System.out.println(juego1.getAnio());
 
         ///////////////////////////////Canciones////////////////////////////
         Cancion cancion1 = new Cancion("Shape of You", "Ed Sheeran", "Pop", "Atlantic", 2.35);
         Cancion cancion2 = new Cancion("Bohemian Rhapsody", "Queen", "Rock", "EMI", 3.54);
-        Cancion cancion3 = new Cancion("Billie Jean", "Michael Jackson", "Pop", "Epic", 2.94);
-        Cancion cancion4 = new Cancion("Smells Like Teen Spirit", "Nirvana", "Grunge", "DGC", 3.01);
-        Cancion cancion5 = new Cancion("Rolling in the Deep", "Adele", "Soul", "XL", 2.28);
+
+        ///////////////////////////////////Series/////////////////////////////////////////////
+        Serie serie1 = new Serie("Elite", "Netflix", 2019);
+
+        //////////////////////////////////Personas/////////////////////////////////////////
+        Persona persona1 = new Persona("Lenin","Taco", 20, 1755855671);
+
+        /////////////////////////////////Autos////////////////////////////////////////////
+        Auto auto1 = new Auto("Chevrolet", "Spark", "Negro","");
+
+        ////////////////////////////////Transporte///////////////////////////////////
+        Transporte transporte1 = new Transporte("Autobus", 50, 45.5);
+
+        /////////////////////////////////Materias////////////////////////////////////////
+        Materia Materia1 = new Materia("Programacion Orientada a Objetos", "TDSPOO24", 5);
+
+        ///////////////////////////////////Zapatos////////////////////////////////////////
+        Zapato zapato1 = new Zapato("Nike", "Deportivo", "Blanco", 40);
+
+        ////////////////////////////////////InstrumentosMusicales///////////////////////////////
+        InstrumentoMusical instrumentoMusical1 = new InstrumentoMusical("Tambor", "Percusion", "Yamaha");
+
+        /////////////////////////////////////Peliculas//////////////////////////////////
+        Pelicula pelicula1 = new Pelicula("Avengers End Game", "Marvel", 2022, "Accion");
     }
 }
