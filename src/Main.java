@@ -16,26 +16,35 @@ public class Main {
 
         ///////////////////////////////////Series/////////////////////////////////////////////
         Serie serie1 = new Serie("Elite", "Netflix", 2019);
+        Serie serie2 = new Serie("Stranger Things", "Netflix", 2016);
 
         //////////////////////////////////Personas/////////////////////////////////////////
         Persona persona1 = new Persona("Lenin","Taco", 20, 1755855671);
+        Persona persona2 = new Persona("Ana", "González", 25, 1754589200);
 
         /////////////////////////////////Autos////////////////////////////////////////////
         Auto auto1 = new Auto("Chevrolet", "Spark", "Negro","");
+        Auto auto2 = new Auto("Toyota", "Corolla", "Blanco", "");
 
         ////////////////////////////////Transporte///////////////////////////////////
         Transporte transporte1 = new Transporte("Autobus", 50, 45.5);
+        Transporte transporte2 = new Transporte("Camión", 2, 80.0);
 
         /////////////////////////////////Materias////////////////////////////////////////
         Materia Materia1 = new Materia("Programacion Orientada a Objetos", "TDSPOO24", 5);
+        Materia materia2 = new Materia("Estructuras de Datos", "TDS102", 4);
 
         ///////////////////////////////////Zapatos////////////////////////////////////////
         Zapato zapato1 = new Zapato("Nike", "Deportivo", "Blanco", 40);
+        Zapato zapato2 = new Zapato("Adidas", "Casual", "Azul", 42);
 
         ////////////////////////////////////InstrumentosMusicales///////////////////////////////
         InstrumentoMusical instrumentoMusical1 = new InstrumentoMusical("Tambor", "Percusion", "Yamaha");
+        InstrumentoMusical instrumentoMusical2 = new InstrumentoMusical("Guitarra", "Cuerda", "Fender");
 
         /////////////////////////////////////Peliculas//////////////////////////////////
         Pelicula pelicula1 = new Pelicula("Avengers End Game", "Marvel", 2022, "Accion");
+        Pelicula pelicula2 = new Pelicula("Interstellar", "Paramount", 2014, "Ciencia Ficción");
+
     }
 }
